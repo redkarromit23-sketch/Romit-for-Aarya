@@ -40,7 +40,7 @@ with tab3:
     if st.button('Click to reveal'):
         st.balloons() # This creates a cool animation on screen
         st.markdown("#### I'm still in love with you.")
-        st.write("I've spent a lot of time thinking about us. I built this to show you that I'm willing to put in the work to show you how much you mean to me.")
+        st.write("I've spent a lot of time thinking about us. I built this to show you that I'm willing to put in the work to show you how much you mean to me./n I hope this makes you smile, even just a little bit. I care about you more than words can say./n/n- Romit")
 
         import streamlit as st
 
