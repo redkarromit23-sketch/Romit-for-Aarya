@@ -5,7 +5,7 @@ import time
 st.set_page_config(page_title="A Message for You", page_icon="✨")
 
 # --- Header Section ---
-st.title("To [Her Name],")
+st.title("To Aarya,")
 st.subheader("I wrote some code because words alone weren't enough.")
 
 # --- The "Effort" Visual ---
@@ -25,14 +25,14 @@ tab1, tab2, tab3 = st.tabs(["Our Timeline", "The Small Things", "A Final Word"])
 with tab1:
     st.write("### How we grew...")
     # You can list dates or specific milestones here
-    st.info("2022: The day we first met at [Place].")
-    st.info("2023: That trip where everything felt perfect.")
+    st.info("2021: The day we first met at Sandip sir's tuition.")
+    st.info("2022: The year which I will cherish throughout my whole life.")
 
 with tab2:
     st.write("### Why I still care")
     st.write("It’s not just the big moments. It’s:")
-    st.write("- The way you drink your coffee.")
-    st.write("- Your specific playlist for rainy days.")
+    st.write("- The way you used to look into my eyes.")
+    st.write("- Those quiet moments when we were just together.")
     st.write("- How you always knew what I was thinking.")
 
 with tab3:
@@ -48,11 +48,11 @@ with tab3:
 st.set_page_config(page_title="For You", page_icon="❤️")
 
 # Secret Access (Only she knows the date)
-auth = st.text_input("Enter our anniversary date (DDMMYYYY) to unlock:", type="password")
+auth = st.text_input("Enter our relationship date (DDMMYYYY) to unlock:", type="password")
 
 if auth == "12052023": # <--- CHANGE THIS to your actual date
     st.balloons()
-    st.title("Hi [Her Name],")
+    st.title("Hi Aarya,")
     st.write("I built this from scratch because I wanted to show you I'm still all in.")
     
     # Emotional Hook
@@ -65,7 +65,7 @@ if auth == "12052023": # <--- CHANGE THIS to your actual date
     st.subheader("Send a message back to me?")
     with st.form("response_form"):
         msg = st.text_area("What's on your mind?")
-        submitted = st.form_submit_button("Send to [Your Name]")
+        submitted = st.form_submit_button("Send to Romit")
         if submitted:
             st.success("Message received. I'm listening.")
             # Note: For a real email to land in your inbox, we'd use 'Formsubmit.co' 
