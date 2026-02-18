@@ -34,13 +34,14 @@ with tab2:
     st.write("- The way you used to look into my eyes.")
     st.write("- Those quiet moments when we were just together.")
     st.write("- How you always knew what I was thinking.")
+    st.write("- तुझ्यासाठी मी अजूनही ते jhumke's सांभाळून ठेवले आहे, जे मी तुला दाखवलेले, मला ते तुला द्यायचे आहे आणि ते मी तुलाच देईन.")
 
 with tab3:
     st.write("### The Truth")
     if st.button('Click to reveal'):
         st.balloons() # This creates a cool animation on screen
-        st.markdown("#### I'm still in love with you.")
-        st.write("I've spent a lot of time thinking about us. I built this to show you that I'm willing to put in the work to show you how much you mean to me./n I hope this makes you smile, even just a little bit. I care about you more than words can say./n/n- Romit")
+        st.markdown("#### I'm still in love with you, आणि मी तुझ्यावर जीवापाड प्रेम करतो!.")
+        st.write("I've spent a lot of time thinking about us. I built this to show you that I'm willing to put in the work to show you how much you mean to me.\n I hope this makes you smile, even just a little bit. I care about you more than words can say. - Romit")
 
         import streamlit as st
 
